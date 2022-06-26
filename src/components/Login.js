@@ -14,9 +14,11 @@ function Login() {
       <LoginInnerContainer>
         <img src="https://cdn.iconscout.com/icon/free/png-256/slack-1425877-1205068.png" />
         <h1>Sign in to the Slack Clone</h1>
-        <p>slack-clone.com</p>
+        <p>by farhanaugustiansyah</p>
 
-        <Button onClick={signIn}>Sign in with Google</Button>
+        <Button onClick={signIn} style={{ fontFamily: "Poppins" }}>
+          Sign in with Google
+        </Button>
       </LoginInnerContainer>
     </Container>
   );
